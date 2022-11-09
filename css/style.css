@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.todo-input {
+  display: flex;
+  gap: 5px;
+  width: 400px;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.riscado {
+  text-decoration: line-through;
+}
+
+.exluir {
+  background-color: red;
+  border-radius: 4px;
+  font-weight: 700;
+  color: white;
+  border: none;
+  width: 25px;
+  height: 25px;
+  float: right;
+  margin: 5px 5px;
+}
+
+.exluir:hover {
+    background-color: rgb(255, 56, 56);
+  }
+
+.tarefa {
+  background-color: rgba(241, 239, 239, 0.123);
+  border-radius: 5px;
+  color: white;
+  padding: 5px 5px;
+  width: 390px;
+  margin: auto;
+  margin-bottom: 3px;
+}
+
+#campo-tarefa {
+  width: 100%;
+  height: 30px;
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+#btn-add {
+  width: 25%;
+}
+
+.name {
+  display: inline-block;
+  margin: 6px 10px;
+}
+
+#tarefas input {
+  margin: 3px;
+  border: 1px solid red;
+}
+
+#todo {
+  background-color: rgb(2, 6, 73);
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 50px;
+  width: 430px;
+  padding: 20px;
+}
