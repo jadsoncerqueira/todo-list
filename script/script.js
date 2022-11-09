@@ -97,11 +97,15 @@ const addTarefa = () => {
   const tarefa = document.querySelector('#campo-tarefa');
   const areaTarefas = document.querySelector('#tarefas');
 
-  let tarefas = getTarefas();
+  if(tarefa.value.length === 0) {
+    alert('Campo não pode ser vazio');
+  } else {
+    let tarefas = getTarefas();
   tarefas = [...tarefas,{ name: tarefa.value, check: false }];
   setTarefas(tarefas);
   factory(tarefa.value, areaTarefas, false)
   tarefa.value = '';
+  }
 };
 
 
