@@ -13,7 +13,7 @@ h1 {
 .todo-input {
   display: flex;
   gap: 5px;
-  width: 400px;
+  width: 90%;
   margin: auto;
   margin-bottom: 15px;
 }
@@ -43,7 +43,7 @@ h1 {
   border-radius: 5px;
   color: white;
   padding: 5px 5px;
-  width: 390px;
+  width: 90%;
   margin: auto;
   margin-bottom: 3px;
 }
@@ -74,6 +74,6 @@ h1 {
   border-radius: 10px;
   margin: auto;
   margin-top: 50px;
-  width: 430px;
+  width: 80%;
   padding: 20px;
 }
